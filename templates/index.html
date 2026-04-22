@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ethical Decision Engine</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>⚖️ Ethical Decision Engine</h1>
+        <p>Compare how different frameworks evaluate moral decisions</p>
+    </header>
+
+    <!-- Main Container -->
+    <div class="container">
+
+        <!-- Controls -->
+        <div class="controls">
+            <select id="action">
+                <option value="steal_food">🍞 Steal Food</option>
+                <option value="lie_to_protect">🤥 Lie to Protect</option>
+                <option value="harm_in_self_defense">🛡️ Self Defense</option>
+            </select>
+
+            <button onclick="runevaluate()">Evaluate</button>
+        </div>
+
+        <!-- Results -->
+        <div class="cards" id="cards">
+            <!-- Results will appear here -->
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>Built with Prolog + Flask + JavaScript</p>
+    </footer>
+
+    <!-- JS (VERY IMPORTANT: must be at bottom) -->
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>
