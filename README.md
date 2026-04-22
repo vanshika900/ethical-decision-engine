@@ -2,14 +2,10 @@
 
 An explainable AI system that evaluates moral decisions using multiple ethical frameworks.
 
----
-
 ## Overview
 
 This project simulates how different ethical perspectives judge the same action.  
 It combines **symbolic AI (Prolog)** with a **web interface (Flask + JavaScript)** to provide transparent, multi-framework decision-making.
-
----
 
 ## Frameworks Implemented
 
@@ -22,8 +18,6 @@ It combines **symbolic AI (Prolog)** with a **web interface (Flask + JavaScript)
 - **Utilitarian (Outcome-Based)**
   - Chooses actions that maximize overall happiness
 
----
-
 ## Features
 
 - Multi-framework ethical evaluation
@@ -33,45 +27,11 @@ It combines **symbolic AI (Prolog)** with a **web interface (Flask + JavaScript)
 - Dynamic action selection
 - Scalable knowledge base
 
----
-
 ## Tech Stack
 
 - **Prolog (SWI-Prolog)** → reasoning engine  
 - **Python (Flask)** → backend API  
-- **HTML/CSS/JavaScript** → frontend UI  
-
----
-
-## Project Structure
-project/ 
-│
-├── app.py # Flask backend
-├── main.pl # Prolog entry point
-│
-├── knowledge/
-│ └── facts.pl # Actions, consequences, utilities
-│
-├── frameworks/
-│ ├── judge.pl
-│ ├── citizen.pl
-│ └── utilitarian.pl
-│
-├── engine/
-│ └── evaluator.pl # Dispatcher logic
-│
-├── config/
-│ └── registry.pl # Registered actions & frameworks
-│
-├── templates/
-│ └── index.html
-│
-├── static/
-│ ├── style.css
-│ └── script.js
-│
-└── requirements.txt
-
+- **HTML/CSS/JavaScript** → frontend UI 
 
 ## How to Run
 
