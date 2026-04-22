@@ -1,30 +1,30 @@
-# ⚖️ Ethical Decision Engine
+# Ethical Decision Engine
 
 An explainable AI system that evaluates moral decisions using multiple ethical frameworks.
 
 ---
 
-## 📌 Overview
+## Overview
 
 This project simulates how different ethical perspectives judge the same action.  
 It combines **symbolic AI (Prolog)** with a **web interface (Flask + JavaScript)** to provide transparent, multi-framework decision-making.
 
 ---
 
-## 🧠 Frameworks Implemented
+## Frameworks Implemented
 
-- ⚖️ **Judge (Rule-Based)**
+- **Judge (Rule-Based)**
   - Follows laws and allows exceptions in extreme cases (e.g., saving a life)
 
-- 👤 **Citizen (Moral Intuition)**
+- **Citizen (Moral Intuition)**
   - Based on common moral reasoning and human values
 
-- 📊 **Utilitarian (Outcome-Based)**
+- **Utilitarian (Outcome-Based)**
   - Chooses actions that maximize overall happiness
 
 ---
 
-## 🚀 Features
+## Features
 
 - Multi-framework ethical evaluation
 - Explainable outputs (decision + reasoning)
@@ -35,7 +35,7 @@ It combines **symbolic AI (Prolog)** with a **web interface (Flask + JavaScript)
 
 ---
 
-## 🏗️ Tech Stack
+## Tech Stack
 
 - **Prolog (SWI-Prolog)** → reasoning engine  
 - **Python (Flask)** → backend API  
@@ -43,8 +43,8 @@ It combines **symbolic AI (Prolog)** with a **web interface (Flask + JavaScript)
 
 ---
 
-## 📂 Project Structure
-project/
+## Project Structure
+project/ 
 │
 ├── app.py # Flask backend
 ├── main.pl # Prolog entry point
@@ -73,9 +73,7 @@ project/
 └── requirements.txt
 
 
----
-
-## ▶️ How to Run
+## How to Run
 
 ### 1. Install dependencies
 pip install -r requirements.txt
